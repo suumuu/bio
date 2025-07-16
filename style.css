@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 158px;
+}
+
+.navbar-text{
+    font-size: 34px;
+    color:#4E47FF;
+}
+
+.navbar-button{
+    padding-inline: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.margin-y{
+    padding-inline: 100px; 
+    
+}
+
+.bg-image{
+    background-image: url(Hero-bg.png);
+    height: 700px; /* Set your desired height */
+}
+
+.banner-text{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 37px;
+    
+}
+
+.banner-button{
+    padding-inline: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.banner-wrapper {
+    display: flex;
+    justify-content: center;
+}
