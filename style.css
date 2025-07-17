@@ -40,6 +40,8 @@
 }
 
 .banner-text{
+    display: flex;
+    justify-content: center;
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 37px;
@@ -62,4 +64,86 @@
 .banner-wrapper {
     display: flex;
     justify-content: center;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 100px;
+    padding-top: 100px;
+}
+
+.first-section-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.first-section-text{
+    font-size: 24px;
+    color: #a5a4a4;
+    margin-bottom: 23px;
+
+}
+
+.preview-image{
+    border-radius: 48px;
+}
+
+.second-section{
+    border-radius: 24px;
+    margin: 100px;
+    background-color:#dfdefc ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 80px;
+}
+
+.second-section-title{
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.second-section-stats{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.header-text{
+    margin-inline: 135px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.para-text{
+    margin-inline: 135px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #828283;
+}
+
+.third-section{
+    display: flex;
+    justify-content: center;
+    padding-inline: 100px;
+}
+
+.third-section-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    padding-inline: 100px;
+    flex-direction: column;
+    margin-inline: 50px;
 }
